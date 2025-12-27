@@ -2,6 +2,8 @@
 
 A powerful, interactive CLI to bootstrap your full-stack monorepo featuring **Next.js**, **NestJS**, and your choice of authentication.
 
+![image](/ss.png)
+
 [![npm version](https://img.shields.io/npm/v/create-next-nest.svg)](https://www.npmjs.com/package/create-next-nest)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/Deveripon/cli-tool-create-next-nest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -11,6 +13,7 @@ A powerful, interactive CLI to bootstrap your full-stack monorepo featuring **Ne
 There are two ways to use this CLI:
 
 ### 1. Recommended: Use without installing (npx)
+
 The easiest way to use the CLI is to run it on-demand. This ensures you are always using the latest version:
 
 ```bash
@@ -18,6 +21,7 @@ npx create-next-nest
 ```
 
 ### 2. Install Globally
+
 If you plan to use this frequently, you can install it globally on your system:
 
 ```bash
@@ -32,6 +36,7 @@ bun add -g create-next-nest
 ```
 
 After installing globally, you can simply run:
+
 ```bash
 create-next-nest
 ```
@@ -52,25 +57,29 @@ npx create-next-nest
 
 ## ✨ Features
 
-- 🏗️ **Monorepo Architecture** - Clean separation of frontend and backend using a modern monorepo setup.
-- ⚡ **Next.js** - Optimized React framework for the frontend.
-- 🦅 **NestJS** - Scalable, enterprise-grade Node.js framework for the backend.
-- 🔐 **Auth Choice** - Choose between **Better-Auth** (modern & flexible) or **Auth.js** (NextAuth).
-- 📦 **Zero Config Setup** - Automatic cloning and dependency installation.
-- 🛠️ **Smart Detection** - Automatically detects your package manager (`pnpm`, `bun`, `yarn`, or `npm`).
-- 🎨 **Beautiful CLI** - Powered by `@clack/prompts` for a premium terminal experience.
+-   🏗️ **Monorepo Architecture** - Clean separation of frontend and backend using a modern monorepo setup.
+-   ⚡ **Next.js** - Optimized React framework for the frontend.
+-   🦅 **NestJS** - Scalable, enterprise-grade Node.js framework for the backend.
+-   🔐 **Auth Choice** - Choose between **Better-Auth** (modern & flexible) or **Auth.js** (NextAuth).
+-   📦 **Zero Config Setup** - Automatic cloning and dependency installation.
+-   🛠️ **Smart Detection** - Automatically detects your package manager (`pnpm`, `bun`, `yarn`, or `npm`).
+-   🎨 **Beautiful CLI** - Powered by `@clack/prompts` for a premium terminal experience.
 
 ## 🛠️ Templates Available
 
 When you run the CLI, you can choose from two production-ready templates:
 
 ### 1. Better-Auth (Recommended)
+
 Features **Next.js 15+** and **NestJS 11+** with [Better-Auth](https://better-auth.com/). Ideal for modern applications requiring flexible, type-safe authentication.
-- **Source:** [Deveripon/Next-Nest-Better-Auth](https://github.com/Deveripon/Next-Nest-Better-Auth)
+
+-   **Source:** [Deveripon/Next-Nest-Better-Auth](https://github.com/Deveripon/Next-Nest-Better-Auth)
 
 ### 2. Auth.js (NextAuth)
+
 A standard-compliant setup featuring **Next.js**, **NestJS**, and **Auth.js**. Features JWT-based authentication and Role-Based Access Control (RBAC).
-- **Source:** [Deveripon/next-nest-auth-js-starterkit](https://github.com/Deveripon/next-nest-auth-js-starterkit)
+
+-   **Source:** [Deveripon/next-nest-auth-js-starterkit](https://github.com/Deveripon/next-nest-auth-js-starterkit)
 
 ## 📖 Manual usage
 
@@ -86,9 +95,10 @@ npx degit Deveripon/next-nest-auth-js-starterkit my-app
 
 ## 📝 Prerequisites
 
-- **Node.js**: >= 20.x
-- **Package Manager**: [pnpm](https://pnpm.io/) is highly recommended for the monorepo templates.
+-   **Node.js**: >= 20.x
+-   **Package Manager**: [pnpm](https://pnpm.io/) is highly recommended for the monorepo templates.
 
 ## 📄 License
 
 MIT © [Deveripon](https://github.com/Deveripon)
+

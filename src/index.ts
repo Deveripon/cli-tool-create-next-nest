@@ -40,8 +40,16 @@ async function main() {
                 p.select({
                     message: 'Select authentication library',
                     options: [
-                        { value: 'better-auth', label: 'Better-Auth (Recommended)', hint: 'Modern and flexible' },
-                        { value: 'auth-js', label: 'Auth.js (NextAuth)', hint: 'Traditional choice' },
+                        {
+                            value: 'better-auth',
+                            label: 'Better-Auth (Recommended)',
+                            hint: 'Modern and flexible',
+                        },
+                        {
+                            value: 'auth-js',
+                            label: 'Auth.js (NextAuth)',
+                            hint: 'Traditional choice',
+                        },
                     ],
                 }),
             install: () =>
@@ -66,7 +74,8 @@ async function main() {
     // Repository links
     const REPOS = {
         'better-auth': 'https://github.com/Deveripon/Next-Nest-Better-Auth.git',
-        'auth-js': 'https://github.com/Deveripon/next-nest-auth-js-starterkit.git',
+        'auth-js':
+            'https://github.com/Deveripon/next-nest-auth-js-starterkit.git',
     };
 
     const TEMPLATE_REPO = REPOS[project.auth as keyof typeof REPOS];
