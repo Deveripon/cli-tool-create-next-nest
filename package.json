@@ -1,0 +1,45 @@
+{
+  "name": "create-next-nest",
+  "version": "1.0.0",
+  "description": "A CLI to bootstrap a Next.js + Nest.js + Better-Auth starter kit.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "create-next-nest": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --clean",
+    "dev": "tsup src/index.ts --format esm --watch",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "nextjs",
+    "nestjs",
+    "better-auth",
+    "starter",
+    "cli",
+    "create-next-nest"
+  ],
+  "author": "Deveripon",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/degit": "^2.8.6",
+    "@types/node": "^25.0.3",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.11.0",
+    "chalk": "^5.6.2",
+    "degit": "^2.8.4",
+    "execa": "^9.6.1"
+  }
+}
