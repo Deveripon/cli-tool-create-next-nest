@@ -3,6 +3,7 @@
 A powerful, interactive CLI to bootstrap your full-stack monorepo featuring **Next.js**, **NestJS**, and your choice of authentication.
 
 [![npm version](https://img.shields.io/npm/v/create-next-nest.svg)](https://www.npmjs.com/package/create-next-nest)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/Deveripon/cli-tool-create-next-nest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Installation
@@ -91,4 +92,3 @@ npx degit Deveripon/next-nest-auth-js-starterkit my-app
 ## 📄 License
 
 MIT © [Deveripon](https://github.com/Deveripon)
-# cli-tool-create-next-nest

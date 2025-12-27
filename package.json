@@ -2,6 +2,14 @@
   "name": "create-next-nest",
   "version": "1.0.0",
   "description": "A CLI to bootstrap a Next.js + Nest.js + Better-Auth starter kit.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deveripon/cli-tool-create-next-nest.git"
+  },
+  "homepage": "https://github.com/Deveripon/cli-tool-create-next-nest#readme",
+  "bugs": {
+    "url": "https://github.com/Deveripon/cli-tool-create-next-nest/issues"
+  },
   "type": "module",
   "main": "./dist/index.js",
   "bin": {
